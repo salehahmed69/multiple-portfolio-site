@@ -303,7 +303,7 @@ animation: sliders 9s infinite linear;
  /* home--section---end */
 
 /* portfolio section--start -- ============================================================== */
-.portfolio-contener{
+.card-contener{
    background-color: transparent;
    width: 100%;
    height: 100%;
@@ -508,10 +508,11 @@ animation: sliders 9s infinite linear;
       .card-body h3{
          font-size: 35px;
          text-align: center;
-         text-decoration: 2px solid underline;
          color: white;
          text-transform: capitalize;
       }
+
+
 
       .card-body p{
          font-size: 16px;
@@ -545,10 +546,13 @@ animation: sliders 9s infinite linear;
          transition: all 0.3s;
       }
 
-      .card-details a:hover{
+      .card-details a:hover {
          text-decoration: 2px solid underline;
          font-size: 17px ;
+      
       }
+     
+
 /* projects--section--end--============================ */
 
 
@@ -600,9 +604,9 @@ animation: sliders 9s infinite linear;
    color: #d6c90b;
 }
 
-/* .about-card-1, .about-card-2, .about-card-3, .about-card-4, .about-card-5{
-   transition: all 0.5s;
-} */
+.about-card-1, .about-card-2, .about-card-3, .about-card-4, .about-card-5{
+   transition: all 0.2s;
+}
 
 .about-card-1:hover, .about-card-2:hover, .about-card-3:hover, .about-card-4:hover, .about-card-5:hover{
    border: 0.2rem solid red;
@@ -686,6 +690,7 @@ animation: sliders 9s infinite linear;
    font-size: 18px;
    border-radius: 5px;
    transition: 0.3s;
+   color: #79baff;
  }
  .left .content .social a span:hover{
    background: #f12020;
@@ -723,9 +728,9 @@ animation: sliders 9s infinite linear;
  .right form input, .right form textarea{
    width: 100%;
    font-size: 1.0625rem;
-   background: #151515;
+   background: #353535;
    padding-left: 10px;
-   border: 1px solid #222222;
+   border: 1px solid #5f5f5f;
  }
  .right form input:focus,
  .right form textarea:focus{
