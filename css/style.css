@@ -554,22 +554,20 @@ animation: sliders 9s infinite linear;
 
 
 /* about--section--start-- ============================= */
-*{
 
+
+.about-contener{
+         background-color: transparent;
+         width: 100%;
+         height: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+         box-sizing: border-box;
 }
 
-.about-section{
-   background-color: #ddd;
-   width: 100%;
-   height: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: wrap;
-   box-sizing: border-box;
-}
-
-.about-card-1{
+.about-card-1, .about-card-4{
    width: 40%;
    background-color: rgb(67, 179, 117);
    border-radius: 8px;
@@ -578,15 +576,7 @@ animation: sliders 9s infinite linear;
 }
 
 
-.about-card-2{
-   width: 40%;
-   background-color: rgb(168, 164, 164);
-   border-radius: 8px;
-   margin: 20px;
-   box-shadow: 1px 2px 3px rgb(197, 197, 197);
-}
-
-.about-card-3{
+.about-card-2, .about-card-3,.about-card-5{
    width: 40%;
    background-color: rgb(168, 164, 164);
    border-radius: 8px;
@@ -595,11 +585,12 @@ animation: sliders 9s infinite linear;
 }
 
 
-.about-card-1 span, .about-card-2 span,  .about-card-3 span{
+
+.about-card span, .about-card span,  .about-card span{
    width: 90%;
 }
 
-.about-card-1 span .fas, .about-card-2 span .fas,.about-card-3 span .fas{
+.about-card-1 span .fas, .about-card-2 span .fas, .about-card-3 span .fas, .about-card-4 span .fas, .about-card-5 span .fas{
    text-align: center;
    font-size: 80px;
    margin-bottom: -10px;
@@ -609,19 +600,22 @@ animation: sliders 9s infinite linear;
    color: #d6c90b;
 }
 
-.about-card-1, .about-card-2, .about-card-3:hover{
-   border:1px solid rgb(82, 82, 82); 
+/* .about-card-1, .about-card-2, .about-card-3, .about-card-4, .about-card-5{
+   transition: all 0.5s;
+} */
+
+.about-card-1:hover, .about-card-2:hover, .about-card-3:hover, .about-card-4:hover, .about-card-5:hover{
+   border: 0.2rem solid red;
+   box-sizing: border-box;
 }
+
+
 
 .about-card .card-body h3{
    color: teal;
    margin-bottom: 10px;
 }
 
-.about-card-1 .card-body p, .about-card-2 .card-body p, .about-card-3 .card-body p{
-   width: 540px;
-   margin: auto;
-}
 /* about--section--end ================================= */
 
 
