@@ -339,6 +339,12 @@ animation: sliders 9s infinite linear;
     padding-top: 80px;
     margin-top: -50px;
     margin-bottom: 20px;
+    width: 1330px;
+   height: 645px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
 }
 
 .mahin-card, .saleh-card, .foinni-card, .nazmul-card, .nafi-card{
@@ -542,7 +548,7 @@ animation: sliders 9s infinite linear;
       }
 
       .card-details{
-         background-color: rgb(85, 85, 85);
+         background-color: #1a1a1a;
          padding: 8px;
          width: 100%;
          text-align: center;
