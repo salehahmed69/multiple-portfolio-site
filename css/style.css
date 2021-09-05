@@ -10,6 +10,10 @@
    font-family: 'Poppins', sans-serif;
 }
 
+html{
+   scroll-behavior: smooth;
+}
+
 /* menu bar for desktop or larger---start */
  
 
@@ -248,15 +252,16 @@
    .home{
       width: 100%;
       height: 100vh;
+      margin-bottom: -79px;
       background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/334612.jpg);
       background-size: 100% 100%;
       background-position: center;
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0px 10px 20px -1px rgba(83,120,227,0.7);
--webkit-box-shadow: 0px 10px 20px -1px rgba(83,120,227,0.7);
--moz-box-shadow: 0px 10px 20px -1px rgba(83,120,227,0.7);
+      box-shadow: 0px 10px 33px -1px rgba(87,56,56,0.7);
+-webkit-box-shadow: 0px 10px 33px -1px rgba(87,56,56,0.7);
+-moz-box-shadow: 0px 10px 50px -1px rgba(87,56,56,0.7);
 
 animation: sliders 9s infinite linear;
    }
@@ -304,7 +309,7 @@ animation: sliders 9s infinite linear;
 
 /* portfolio section--start -- ============================================================== */
 .card-contener{
-   background-color: transparent;
+   background-color: #a9a2a2;
    width: 100%;
    height: 100%;
    display: flex;
@@ -321,12 +326,19 @@ animation: sliders 9s infinite linear;
    text-transform: uppercase;
    font-size: 50px;
    padding:15px 0 ;
-   margin: 8px 0  50px 0;
+   margin: 80px 0  50px 0;
    width: 100%;
    letter-spacing: 5px;
+   border-top: 1px solid rgb(71, 70, 70);
    box-shadow: 0px 10px 20px -1px rgba(83,120,227,0.7);
 -webkit-box-shadow: 0px 10px 20px -1px rgba(83,120,227,0.7);
 -moz-box-shadow: 0px 10px 20px -1px rgba(83,120,227,0.7);
+}
+
+.test-div{
+    padding-top: 80px;
+    margin-top: -50px;
+    margin-bottom: 20px;
 }
 
 .mahin-card, .saleh-card, .foinni-card, .nazmul-card, .nafi-card{
@@ -437,9 +449,9 @@ animation: sliders 9s infinite linear;
  }
 
  .details-bt{
-   color: white;
+   color: rgb(66, 61, 61);
    cursor: pointer;
-   background-color: red;
+   background-color: rgb(0, 201, 252);
    display: block;
    margin: auto;
    margin-top: -5px;
@@ -464,6 +476,7 @@ animation: sliders 9s infinite linear;
    
     font-size: 27px;
     text-decoration: underline;
+    color: black;
  }
 
    
@@ -529,7 +542,7 @@ animation: sliders 9s infinite linear;
       }
 
       .card-details{
-         background-color: blue;
+         background-color: rgb(85, 85, 85);
          padding: 8px;
          width: 100%;
          text-align: center;
@@ -787,3 +800,4 @@ animation: sliders 9s infinite linear;
 
 
 /* footer--section--start--==================================================================================== */
+
