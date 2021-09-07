@@ -4,6 +4,10 @@
    box-sizing: border-box;
 }
 
+/* html{
+   margin:;
+}
+
          /* header-start */
             .header{
                display: none;
@@ -12,7 +16,7 @@
 
 
 /* nav var for mobile----start... */
-   .nav{
+   /* .nav{
       background-color: tomato;
       width: 100%;
       height: 50px;
@@ -49,12 +53,7 @@
       border-bottom: 2px dashed rgb(90, 90, 90);
       margin: auto;
       line-height: 100px;
-      /* font-size: 20px;
-      font-family: arial;
-      text-transform: uppercase;
-      line-height: 80px;
-      margin-right: 50px;
-      display: inline-block; */
+      
    }
 
    .for-border{
@@ -80,14 +79,8 @@
 
    #chack:checked ~ ul{
       left: 0;
-   }
+   } */
 
 /* nav var for mobile----end... */
-
-
-/* slideshow for mobile----start... */
-
-/* slideshow for mobile----end */
-
 
 
