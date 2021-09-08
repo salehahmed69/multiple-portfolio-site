@@ -45,6 +45,8 @@ html{
     box-shadow: 0px 4px 10px 1px rgb(82, 79, 79);
     /* box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1); */
 }
+   #logo2{
+      display: none;  
    }
 
    #logo{
@@ -279,7 +281,6 @@ html{
                                  height: 40px;
                                  display: block;
                               }
-
                               .header-fit{
                                  width: 1170px;
                                  height: 40px; 
@@ -292,7 +293,6 @@ html{
                                  float: left;
                                  position: relative; 
                               }
-
                               .sub-perent2{
                               width:700px;
                               height: 40px;
@@ -300,13 +300,11 @@ html{
                               border-right : 1px solid rgb(110, 105, 105);
                               border-left : 1px solid rgb(110, 105, 105);
                               }
-
                               .sub-perent3{
                                  width: 245px;
                                  height: 40px;
                                  float: left;
                               }
-
                               #number{
                               padding: 0px 20px;
                               line-height: 40px;
@@ -315,11 +313,9 @@ html{
                               font-family: arial;
                               font-size: 16px;
                               }
-
                               #number:hover{
                                  color: rgb(25, 118, 204);
                               }
-
                               #gamil{
                                  padding: 0px 55px;
                                  line-height: 40px;
@@ -329,35 +325,27 @@ html{
                                  font-size: 18px;
                                  letter-spacing: 1px;
                               }
-
                               #gamil:hover{
                                  text-decoration: underline;
                               }
-
                               #social{
                                  margin-left: 18px;
                               }
-
                               #social a{
                                  padding: 0px 5px;
                                  line-height: 40px;
                                  color: rgb(36, 175, 255);
                                  font-size: 28px;
                               }
-
                               .fa-github{
                                  color: rgb(90, 90, 90);
                               }
-
                               .fa-youtube{
                                  color: rgba(255, 0, 0, 0.938);
                               }
-
                               #sub-social{
                                  margin-right: 15px;
-
                               }
-
                               #sub-social:hover{
                                  color: black;
                                  background-color: rgb(240, 240, 240);
@@ -926,5 +914,4 @@ animation: sliders 9s infinite linear;
  }
 
 
-/* footer--section--start--==================================================================================== */
-
+/* footer--section--end--==================================================================================== */
