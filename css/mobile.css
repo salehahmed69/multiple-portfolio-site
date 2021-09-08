@@ -113,7 +113,12 @@
 
 /* --section--end--=========================================  */
 
-
+.sub-home p {
+   font-family: sans-serif;
+   font-size: 12px;
+   line-height: 26px;
+   color: rgb(38, 130, 250);
+}
 
 /* projects--section--start--===================================================================================== */
 .card-contener{
@@ -129,7 +134,7 @@
 
 .test-div{
    padding-top: 80px;
-   margin-top: -50px;
+   margin-top: -40px;
    margin-bottom: 20px;
    width: 100vw;
   height: 645px;
@@ -151,6 +156,100 @@
    
 }
 
+
+.mahin-content h3 .fas{
+   display: none;
+}
+.mahin-content {
+   width: 58%;
+   background-color: transparent;
+   height: 97%;
+   margin: 9px;
+   position: relative;
+}
+
+
+
+.mahin-content h3 {
+   background-color: transparent;
+    /* padding: 12px; */
+    color: #fff;
+    /* margin-left: -16px; */
+    display: inline-block;
+    /* border-radius: 0 50px 50px 0; */
+    /* padding-right: 50px; */
+    /* top: -118px; */
+    /* margin-top: 73px; */
+    /* margin-bottom: 10px; */
+    top: 75px;
+    left: 55px;
+    /* bottom: 0; */
+    right: 0;
+    /* left: 0; */
+    font-size: 20px;
+    text-transform: capitalize;
+    position: absolute;
+    text-decoration: none;
+}
+
+#mahin-name-fix, #nafi-name-fix{
+    top: 55px;
+    line-height: 22px;
+}
+
+.mahin-title {
+   display: block;
+   margin: 0;
+   position: absolute;
+   margin-top: 0;
+   top: 120px;
+   border-radius: none !important;
+   padding: 0;
+   font-size: 28px;
+   font-weight: 500;
+   line-height: 30px;
+   color: wheat;
+   text-transform: capitalize;
+   background-color: transparent;
+   border-top: none;
+   box-shadow: none;
+}
+
+.short-bio {
+   position: absolute;
+   top: 200px;
+   background-color: transparent;
+   color: #0bff9b;
+   margin: 0;
+   margin-top: -15px;
+   padding-top: 18px !important;
+   padding: 5px 2px;
+   text-align: justify;
+   line-height: 1.4;
+   height: 250px;
+   border-top: 2px solid #ddd;
+   font-size: 16px;
+}
+
+.details-bt {
+   position: absolute;
+   bottom: 0;
+   color: rgb(66, 61, 61);
+   cursor: pointer;
+   background-color: #b7b7b7;
+   display: block;
+   margin: auto;
+   margin-top: -5px;
+   border-radius: 5px;
+   width: 100%;
+   padding: 5px;
+   text-align: center;
+   font-size: 20px;
+   transition: 0.7s;
+   font-weight: bold;
+}
+
+
 .portfolio-social-section{
    display: none;
 }
@@ -163,7 +262,7 @@
 }
 
 .mahin-photos{
-   position: relative;
+   position: absolute;
    width: 220px;
    height: 200px;
    display: block;
@@ -172,6 +271,14 @@
 
 .mahin-photos img{
    width: 100%;
+}
+
+.mahin-content {
+   width: 100%;
+   background-color: transparent;
+   height: 97%;
+   margin: 9px;
+   position: relative;
 }
 
 /* .card{
