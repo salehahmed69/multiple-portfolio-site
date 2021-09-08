@@ -410,9 +410,9 @@ animation: sliders 9s infinite linear;
 
    .sub-home p{
       font-family: sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 26px;
-    color: #fff;
+    color: rgb(38, 130, 250);
    }
  /* home--section---end */
 
