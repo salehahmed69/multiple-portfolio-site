@@ -7,7 +7,6 @@
 /* html{
    margin:;
 }
-
          /* header-start */
             .header{
                display: none;
@@ -151,7 +150,6 @@
 
 /* projects--section--start--===================================================================================== */
 .card-contener{
-   background-color: ;
    width: 100%;
    height: 100%;
    display: flex;
@@ -161,7 +159,7 @@
    box-sizing: border-box;
 }
 
-.card:nth-child(1n+6) {
+.card:nth-child(1n+7) {
 display: none; 
 }
 
@@ -209,11 +207,6 @@ display: none;
     color: #fff;
     /* margin-left: -16px; */
     display: inline-block;
-    /* border-radius: 0 50px 50px 0; */
-    /* padding-right: 50px; */
-    /* top: -118px; */
-    /* margin-top: 73px; */
-    /* margin-bottom: 10px; */
     top: 75px;
     left: 55px;
     /* bottom: 0; */
@@ -225,10 +218,15 @@ display: none;
     text-decoration: none;
 }
 
-#mahin-name-fix, #nafi-name-fix{
+#mahin-name-fix{
     top: 55px;
     line-height: 22px;
 }
+
+/* #nafi-name-fix{
+   top: 55px;
+   line-height: 22px;
+} */
 
 .mahin-title {
    display: block;
@@ -339,25 +337,19 @@ display: none;
 /* .card-contener h1{
    display: block;
 }
-
 .card a img{
    width: 100%;
    height: 200px;
 }
-
 .card-body{
    padding: 10px;
 }
-
 .card-body h3{
    font-size: 35px;
    text-align: center;
    color: white;
    text-transform: capitalize;
 }
-
-
-
 .card-body p{
    font-size: 16px;
    text-align: justify;
@@ -369,18 +361,14 @@ display: none;
    font-weight: 500;
    line-height: 22px;
    word-spacing: 1px;
-
 }
-
 .card-details{
    background-color: #1a1a1a;
    padding: 8px;
    width: 100%;
    text-align: center;
    border-radius: 5px;
-
 }
-
 .card-details a{
    color: rgb(255, 255, 255);
    text-decoration: none;
@@ -389,11 +377,9 @@ display: none;
    font-weight: 700;
    transition: all 0.3s;
 }
-
 .card-details a:hover {
    text-decoration: 2px solid underline;
    font-size: 17px ;
-
 } */
 
 
