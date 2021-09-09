@@ -23,6 +23,7 @@
       text-align: center;
       position: sticky;
       top: 0px;
+      z-index: 1000;
       display: flex;
       justify-content: space-between;
    }
@@ -94,6 +95,14 @@
       left: 0;
    }
 
+   .sub-home{
+      width: 100%;
+      padding: 18px;
+      position: absolute;
+      text-align: center;
+      color: #00ffd0;
+   }
+
 /* nav var for mobile----end... */
 
 
@@ -107,17 +116,37 @@
    font-size: 40px;
 }
 
+.sub-home p {
+   
+   font-family: sans-serif;
+   font-size: 15px;
+   line-height: 26px;
+   color: rgb(217, 233, 255);
+}
 
 
 
 
 /* --section--end--=========================================  */
 
-.sub-home p {
-   font-family: sans-serif;
-   font-size: 12px;
-   line-height: 26px;
-   color: rgb(38, 130, 250);
+#portfolio-heading {
+   display: block;
+   text-align: center;
+   background-color: rgb(25, 138, 167) !important;
+   text-transform: uppercase;
+   font-size: 50px;
+   padding: 15px 0;
+   margin: 50px 0 50px 0;
+   width: 100%;
+   letter-spacing: 5px;
+   border-top: 1px solid rgb(71, 70, 70);
+   box-shadow: 0px 10px 20px -1px rgb(83 120 227 / 70%);
+   -webkit-box-shadow: 0px 10px 20px -1px rgb(83 120 227 / 70%);
+   -moz-box-shadow: 0px 10px 20px -1px rgba(83,120,227,0.7);
+}
+
+#projects-heading, #about-heading{
+   margin: 50px 0 50px 0 !important;
 }
 
 /* projects--section--start--===================================================================================== */
@@ -130,6 +159,10 @@
    align-items: center;
    flex-wrap: wrap;
    box-sizing: border-box;
+}
+
+.card:nth-child(1n+6) {
+display: none; 
 }
 
 .test-div{
@@ -279,6 +312,20 @@
    height: 97%;
    margin: 9px;
    position: relative;
+}
+
+
+.about-card-1, .about-card-2, .about-card-3, .about-card-4, .about-card-5 {
+   transition: all 0.2s;
+   width: 100%;
+   overflow: hidden;
+   border: 2px solid #fb7d67;
+
+}
+
+
+.about-card-1 span .fas, .about-card-2 span .fas, .about-card-3 span .fas, .about-card-4 span .fas, .about-card-5 span .fas {
+   color: #dc0000;
 }
 
 /* .card{
